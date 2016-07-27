@@ -20,8 +20,8 @@ b_pin = 23
 
 # Setup pins as outputs for the buzzer and the two LEDs
 buzzer_pin = 24
-red_pin1 = 20
-red_pin2 = 21
+red_pin1 = 27
+red_pin2 = 22
 
 GPIO.setup(buzzer_pin, GPIO.OUT)
 GPIO.setup(red_pin1, GPIO.OUT)
