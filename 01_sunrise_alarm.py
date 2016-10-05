@@ -9,7 +9,6 @@ GPIO.cleanup()
 # Configure the Pi to use the BCM (Broadcom) pin names, rather than the pin positions
 GPIO.setmode(GPIO.BCM)
 
-
 # Set sunrise limit. This works for testing in a light room when torch aimed at LDR. Use 30 for accurate sunrise detection.
 sunrise = 50
 
